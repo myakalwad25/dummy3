@@ -7,6 +7,7 @@ import Product_section from './components/Product_section.js';
 import About from './components/About.js';
 import { useEffect } from 'react';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
 
   useEffect(()=>{
@@ -20,6 +21,7 @@ function App() {
       <Hero/>
       <Features/>
       <Product_section/> 
+      <Footer/>
       {/*
       <Blog/> */
       }
