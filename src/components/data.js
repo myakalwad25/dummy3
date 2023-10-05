@@ -3,24 +3,25 @@ export const nav= [
     {
         key:"1",
         name:"Home",
-        link:"#"
+        link:"",
+       
     },
     {
         key:"2",
         name:"Shop",
-        link:"#"
+        link:"/shop"
     },{
         key:"3",
         name:"Blog",
-        link:"#"
+        link:"/blog"
     },{
         key:"4",
         name:"About",
-        link:"#"
+        link:"/about"
     },{
         key:"5",
         name:"Contact",
-        link:"#"
+        link:"/contact"
     }
 ];
 
@@ -66,7 +67,7 @@ export const products_list = [
         key:1,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f1.jpg',
+        img : '../src/components/Images/products/f1.jpg',
         company :'adidas',
         price:99
     },
@@ -130,7 +131,7 @@ export const products_list = [
         key:9,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n1.jpg',
+        img : '../src/components/Images/products/n1.jpg',
         company :'adidas',
         price:99
     },
