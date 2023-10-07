@@ -11,6 +11,16 @@
     color: white;  
 }
 
+.section_heading h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.section_heading h3{
+    font-weight: 20px;
+    font-weight: 600;
+}
+
 .product_gallery{
     width: 95%;
     padding: 2.5%;
