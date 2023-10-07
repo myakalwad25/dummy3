@@ -20,8 +20,8 @@ function Product_section() {
             <p className="subheading">Summer collections New Modern Design</p>
         </div>
         <div className="product_gallery">
-            {/* <Product_card product={product} /> */}
             {new_product_list}
+            {/* <Product_card item={products_list[0]}></Product_card> */}
         </div>
         </>
         
