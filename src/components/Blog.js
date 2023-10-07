@@ -8,7 +8,7 @@ function Blog() {
         return (
             <div className="blog-box">
             <div className="blog-img">
-                {/* <img src={blog.img} alt=""/> */}
+                <img src={blog.img} alt=""/>
             </div>
             <div className="blog-info">
                 <p className='p1'>{blog.titel}</p>

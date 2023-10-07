@@ -11,7 +11,7 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
 import Cart from './components/Cart';
-import Error from './components/Error';
+import Shop from './components/Shop';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
@@ -29,11 +29,12 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
+          <Route path='*' element={<Shop/>}> </Route>
           <Route path='/Blog' element={<Blog/>}></Route>
-          <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/about' element={<About/>}></Route>
+          <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/cart' element={<Cart/>}> </Route>
-          <Route path='*' element={<Error/>}> </Route>
+          
         </Routes>
       </BrowserRouter>
       
