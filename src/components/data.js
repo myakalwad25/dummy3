@@ -1,4 +1,21 @@
 /////////////////////////////////////  nav elements
+import {f1} from './Images/products/f1.jpg';
+import {f2} from './Images/products/f2.jpg';
+import {f3} from './Images/products/f3.jpg';
+import {f4} from './Images/products/f4.jpg';
+import {f5} from './Images/products/f5.jpg';
+import {f6} from './Images/products/f6.jpg';
+import {f7} from './Images/products/f7.jpg';
+import {f8} from './Images/products/f8.jpg';
+import n1 from './Images/products/n1.jpg';
+import n2 from './Images/products/n2.jpg';
+import {n3} from './Images/products/n3.jpg';
+import {n4} from './Images/products/n4.jpg';
+import {n5} from './Images/products/n5.jpg';
+import {n6} from './Images/products/n6.jpg';
+import {n7} from './Images/products/n7.jpg';
+import {n8} from './Images/products/n8.jpg';
+
 export const nav= [
     {
         key:"1",
@@ -67,7 +84,7 @@ export const products_list = [
         key:1,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : '../src/components/Images/products/f1.jpg',
+        img : {f1},
         company :'adidas',
         price:99
     },
@@ -75,7 +92,7 @@ export const products_list = [
         key:2,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f2.jpg',
+        img : {f2},
         company :'adidas',
         price:99
     },
@@ -83,7 +100,7 @@ export const products_list = [
         key:3,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f3.jpg',
+        img : {f3},
         company :'adidas',
         price:99
     },
@@ -91,7 +108,7 @@ export const products_list = [
         key:4,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f4.jpg',
+        img : {f4},
         company :'adidas',
         price:99
     },
@@ -99,7 +116,7 @@ export const products_list = [
         key:5,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f5.jpg',
+        img : {f5},
         company :'adidas',
         price:99
     },
@@ -107,7 +124,7 @@ export const products_list = [
         key:6,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f6.jpg',
+        img : {f6},
         company :'adidas',
         price:99
     },
@@ -115,7 +132,7 @@ export const products_list = [
         key:7,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f7.jpg',
+        img : {f7},
         company :'adidas',
         price:99
     },
@@ -123,7 +140,7 @@ export const products_list = [
         key:8,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : './Images/products/f8.jpg',
+        img : {f8},
         company :'adidas',
         price:99
     },
@@ -131,7 +148,7 @@ export const products_list = [
         key:9,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : '../src/components/Images/products/n1.jpg',
+        img :n1,
         company :'adidas',
         price:99
     },
@@ -139,7 +156,7 @@ export const products_list = [
         key:10,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n2.jpg',
+        img :n2,
         company :'adidas',
         price:99
     }   ,
@@ -147,7 +164,7 @@ export const products_list = [
         key:11,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n3.jpg',
+        img :{n3},
         company :'adidas',
         price:99
     },
@@ -155,7 +172,7 @@ export const products_list = [
         key:12,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n4.jpg',
+        img :{n4},
         company :'adidas',
         price:99
     },
@@ -163,7 +180,7 @@ export const products_list = [
         key:13,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n5.jpg',
+        img :{n5},
         company :'adidas',
         price:99
     },
@@ -171,7 +188,7 @@ export const products_list = [
         key:14,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n5.jpg',
+        img :{n6},
         company :'adidas',
         price:99
     } ,
@@ -179,7 +196,7 @@ export const products_list = [
         key:15,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n7.jpg',
+        img :{n7},
         company :'adidas',
         price:99
     },
@@ -187,7 +204,7 @@ export const products_list = [
         key:16,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : './Images/products/n8.jpg',
+        img :{n8},
         company :'adidas',
         price:99
     }
