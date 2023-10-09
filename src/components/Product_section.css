@@ -1,5 +1,5 @@
 .section_heading{
-    background-image: url("./Images/banner/b2.jpg");
+    background-image: url("../../public/Images/banner/b2.jpg");
     display: flex;
     flex-direction: column;
     align-content: space-around;

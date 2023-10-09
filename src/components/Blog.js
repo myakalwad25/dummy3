@@ -1,5 +1,6 @@
 import './Blog.css';
-import {blogs} from './data.js'
+import {blogs} from './data.js';
+
 
 function Blog() {
 
@@ -8,7 +9,7 @@ function Blog() {
         return (
             <div className="blog-box">
             <div className="blog-img">
-                {/* <img src={blog.img} alt=""/> */}
+                <img src={blog.img} alt="blog_photo"/>
             </div>
             <div className="blog-info">
                 <p className='p1'>{blog.titel}</p>
@@ -28,9 +29,9 @@ function Blog() {
 
     return (
         <>
-            <div className="blog_header header">
-                <p className="heading">#readmore</p>
-                <p className="subheading">Read all case studies about product</p>
+            <div className="blog_header header" >
+                <p className="heading">{"#Read us"}</p>
+                <p className="subheading">{"Wanna Know some about new fashion style"}</p>
             </div>
             <div className='blog_container'>
             {blog_list}
