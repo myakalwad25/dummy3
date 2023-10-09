@@ -62,35 +62,19 @@ body{
 .header{
     width: 100%;
     height: 30vh;
-<<<<<<< HEAD
      /* border: 1px solid black;  */
-=======
-    /* border: 1px solid black; */
->>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     /* background-image: url("../../public/Images/banner/b4.jpg"); */
-=======
-    /* background-image: url("../../public/Images/banner/b11.jpg"); */
->>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
     background-size: cover;
     background-position-y: 50% ;
     background-repeat: no-repeat;
     color: white;
-<<<<<<< HEAD
 } 
 
 
-=======
-}
-
-.shop_header{
-    /* background-image: url("../../public/Images/banner/b1.jpg"); */
-}
->>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
 /* footer css */
 
 .newsletter{
@@ -106,11 +90,7 @@ body{
 }
 
 .newsletter .form{
-<<<<<<< HEAD
     width: 40%;
-=======
-    width: 45%;
->>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
 
 }
 .newsletter .form input {

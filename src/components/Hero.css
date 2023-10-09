@@ -2,11 +2,7 @@
     /* border: 2px solid black; */
     position: relative;
     height: 87vh;
-<<<<<<< HEAD
     background-image:url('../../public/Images/hero/hero.jpg');
-=======
-    background-image:url("../../public/Images/hero/hero.jpg");
->>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
     background-position: top 10% right -10%;
     background-size: cover;
 }

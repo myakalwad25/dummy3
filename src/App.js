@@ -34,11 +34,7 @@ function App() {
           <Route path='/about' element={<About/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/cart' element={<Cart/>}> </Route>
-<<<<<<< HEAD
           <Route path='/Shop' element={<Shop/>}> </Route>
-=======
-          
->>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
         </Routes>
       </BrowserRouter>
       

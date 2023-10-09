@@ -9,11 +9,7 @@ function Blog() {
         return (
             <div className="blog-box">
             <div className="blog-img">
-<<<<<<< HEAD
                 <img src={blog.img} alt="blog_photo"/>
-=======
-                <img src={blog.img} alt=""/>
->>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
             </div>
             <div className="blog-info">
                 <p className='p1'>{blog.titel}</p>
