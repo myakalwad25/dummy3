@@ -15,13 +15,13 @@ function Product_section() {
 
     return (
         <>
-        <div className="section_heading">
-            <p className="heading">Feature Products</p>
-            <p className="subheading">Summer collections New Modern Design</p>
+        <div className='section_heading'>
+            <h1>{"Feature Products"}</h1>
+            <h3>{"Summer collections New Modern Design"}</h3>
         </div>
         <div className="product_gallery">
             {new_product_list}
-            {/* <Product_card item={products_list[0]}></Product_card> */}
+           
         </div>
         </>
         

@@ -6,12 +6,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     background-image: url("../../public/Images/banner/b4.jpg");
+=======
+    /* background-image: url("../../public/Images/banner/b4.jpg"); */
+>>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
     background-size: cover;
     background-position-y: 50% ;
     background-repeat: no-repeat;
     color: rgb(29, 203, 215);
+<<<<<<< HEAD
 }  */
+=======
+} 
+>>>>>>> f389ce40b5313f3fe82ec10d57dc4b2693baba6d
 
 .about_header{
     background-image: url("../../public/Images/banner/b4.jpg");
