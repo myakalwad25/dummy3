@@ -1,5 +1,5 @@
 .section_heading{
-    background-image: url("./Images/banner/b2.jpg");
+    background-image: url("../../public/Images/banner/b2.jpg");
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -9,6 +9,16 @@
     padding: 50px 0;
     position: relative;
     color: white;  
+}
+
+.section_heading h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.section_heading h3{
+    font-weight: 20px;
+    font-weight: 600;
 }
 
 .product_gallery{
@@ -43,7 +53,6 @@
     height: 74%;
     /* margin:10px,0; */
     border-radius: 15px;
-    /* background-image: url("./Images/products/f1.jpg"); */
     background-position: center;
     background-size: cover;
 }

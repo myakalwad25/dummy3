@@ -1,20 +1,3 @@
-/////////////////////////////////////  nav elements
-// import {f1} from './Images/products/f1.jpg';
-// import {f2} from './Images/products/f2.jpg';
-// import {f3} from './Images/products/f3.jpg';
-// import {f4} from './Images/products/f4.jpg';
-// import {f5} from './Images/products/f5.jpg';
-// import {f6} from './Images/products/f6.jpg';
-// import {f7} from './Images/products/f7.jpg';
-// import {f8} from './Images/products/f8.jpg';
-// import n1 from './Images/products/n1.jpg';
-// import n2 from './Images/products/n2.jpg';
-// import {n3} from './Images/products/n3.jpg';
-// import {n4} from './Images/products/n4.jpg';
-// import {n5} from './Images/products/n5.jpg';
-// import {n6} from './Images/products/n6.jpg';
-// import {n7} from './Images/products/n7.jpg';
- //import {n8} from './Images/products/n8,jpg';
 
 export const nav= [
     {
@@ -84,7 +67,7 @@ export const products_list = [
         key:1,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/f1.jpg",
+        img : "./Images/products/f1.jpg",
         company :'adidas',
         price:99
     },
@@ -92,7 +75,7 @@ export const products_list = [
         key:2,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/f2.jpg",
+        img : "./Images/products/f2.jpg",
         company :'adidas',
         price:99
     },
@@ -100,7 +83,7 @@ export const products_list = [
         key:3,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img :"./Images copy/products/f3.jpg",
+        img :"./Images/products/f3.jpg",
         company :'adidas',
         price:99
     },
@@ -108,7 +91,7 @@ export const products_list = [
         key:4,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img :"./Images copy/products/f4.jpg",
+        img :"./Images/products/f4.jpg",
         company :'adidas',
         price:99
     },
@@ -116,7 +99,7 @@ export const products_list = [
         key:5,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/f5.jpg",
+        img : "./Images/products/f5.jpg",
         company :'adidas',
         price:99
     },
@@ -124,7 +107,7 @@ export const products_list = [
         key:6,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/f6.jpg",
+        img : "./Images/products/f6.jpg",
         company :'adidas',
         price:99
     },
@@ -132,7 +115,7 @@ export const products_list = [
         key:7,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/f7.jpg",
+        img : "./Images/products/f7.jpg",
         company :'adidas',
         price:99
     },
@@ -140,7 +123,7 @@ export const products_list = [
         key:8,
         code:"feature_product",
         type : "Half Slave Shirt",
-        img :"./Images copy/products/f8.jpg",
+        img :"./Images/products/f8.jpg",
         company :'adidas',
         price:99
     },
@@ -148,7 +131,7 @@ export const products_list = [
         key:9,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/n1.jpg",
+        img : "./Images/products/n1.jpg",
         company :'adidas',
         price:99
     },
@@ -156,7 +139,7 @@ export const products_list = [
         key:10,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img :"./Images copy/products/n2.jpg",
+        img :"./Images/products/n2.jpg",
         company :'adidas',
         price:99
     }   ,
@@ -164,7 +147,7 @@ export const products_list = [
         key:11,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img :"./Images copy/products/n3.jpg",
+        img :"./Images/products/n3.jpg",
         company :'adidas',
         price:99
     },
@@ -172,7 +155,7 @@ export const products_list = [
         key:12,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/n4.jpg",
+        img : "./Images/products/n4.jpg",
         company :'adidas',
         price:99
     },
@@ -180,7 +163,7 @@ export const products_list = [
         key:13,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img :"./Images copy/products/n5.jpg",
+        img :"./Images/products/n5.jpg",
         company :'adidas',
         price:99
     },
@@ -188,7 +171,7 @@ export const products_list = [
         key:14,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/n6.jpg",
+        img : "./Images/products/n6.jpg",
         company :'adidas',
         price:99
     } ,
@@ -196,7 +179,7 @@ export const products_list = [
         key:15,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img :"./Images copy/products/n7.jpg",
+        img :"./Images/products/n7.jpg",
         company :'adidas',
         price:99
     },
@@ -204,7 +187,7 @@ export const products_list = [
         key:16,
         code:"new_arrival",
         type : "Half Slave Shirt",
-        img : "./Images copy/products/n8.jpg",
+        img : "./Images/products/n8.jpg",
         company :'adidas',
         price:99
     }
@@ -218,7 +201,7 @@ export const blogs= [
         titel:"The Cotton-jersey Zip-up Hoddie",
         discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         theme : "13/01",
-        img : './Images/blog/b1.jpg'
+        img : 'Images/blog/b1.jpg'
 
     },
     {
@@ -226,7 +209,7 @@ export const blogs= [
         titel:"AW20 Menswear Trends",
         discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         theme : "10/01",
-        img : './Images/blog/b2.jpg'
+        img : 'Images/blog/b2.jpg'
 
     },
     {
@@ -234,7 +217,7 @@ export const blogs= [
         titel:"How to Style a Quiff",
         discription :"Kickstarter man braid godard colorin book.Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         theme : "13/12",
-        img : './Images/blog/b3.jpg'
+        img : 'Images/blog/b3.jpg'
 
     },
     {
@@ -269,4 +252,29 @@ export const blogs= [
         img : './Images/blog/b7.jpg'
 
     }
+]
+
+export const banners=[
+    {   
+        key:1,
+        heading:"#be unlimited",
+        subheadgin:"There should not be any limit to shopping",
+        img:"./Images/banner/b1.jpg"
+    },
+    {   
+        key:2,
+        heading:"#readmore",
+        subheadgin:"Read all case studies about product",
+        img:"./Images/banner/b11.jpg"
+    }, {   
+        key:3,
+        heading:"#AboutUs",
+        subheadgin:"Come and connect with us!t",
+        img:"./Images/banner/b4.jpg"
+    }, {   
+        key:4,
+        heading:"#Contact Us",
+        subheadgin:"We are always here for you",
+        img:"./Images/banner/b2.jpg"
+    },
 ]

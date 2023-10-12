@@ -4,8 +4,8 @@ function About() {
     return (
         <>
             <div className="about_header header">
-                <p className="heading">#KnowUs</p>
-                <p className="subheading">Come and connect with us!</p>
+                {/* <p className="heading">#KnowUs</p>
+                <p className="subheading">Come and connect with us!</p> */}
             </div>
             <div className="about_container">
                 <div className="about_img"></div>

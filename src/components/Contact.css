@@ -6,7 +6,9 @@
     align-items: center;
     align-content: center;
 }
-
+.contact_header{
+    background-image: url("../../public/Images/banner/b2.jpg");
+}
 .info{
 
     position: relative;
